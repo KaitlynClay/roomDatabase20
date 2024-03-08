@@ -60,24 +60,3 @@ class ListAdapter: RecyclerView.Adapter<ListAdapter.MyViewHolder>() {
 
 }
 
-
-//    class MyViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-//        val txtID: TextView = itemView.findViewById(R.id.txtID)
-//        val txtFirst: TextView = itemView.findViewById(R.id.txtfirst)
-//        val txtLast: TextView = itemView.findViewById(R.id.txtLast)
-//        val txtAge: TextView = itemView.findViewById(R.id.txtAge)
-//    }
-
-//    override fun onBindViewHolder(holder: ListAdapter.MyViewHolder, position: Int) {
-//        val currentItem = userList[position]
-//        holder.txtID.text = currentItem.id.toString()
-//        holder.txtFirst.text = currentItem.firstName
-//        holder.txtLast.text = currentItem.lastName
-//        holder.txtAge.text = currentItem.age.toString()
-//
-//        holder.itemView.rowLayout.setOnClickListener {
-//            val action = ListFragmentDirections.actionListFragmentToUpdateFragment(currentItem)
-//            holder.itemView.findNavController().navigate(action)
-//        }
-//
-//    }
